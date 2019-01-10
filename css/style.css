@@ -1,3 +1,4 @@
 .bg{background-color: #1CA1F2;text-align: center;}
 
-g#Artboard{width: 50%;}
+#Artboard{display: block;height:100%;}
+.twitterIcon-bird{display:block;height: 100%;width:auto;}
