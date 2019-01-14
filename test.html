@@ -14,7 +14,57 @@
 	</head>
 	<body>
 		<!-- begin: fluid-width bg -->
-		<div class="fluid-width bg">
+	<div class="fluid-width bg StaticLoggedOutHomePage-content">
+		<div class="PageBlock StaticLoggedOutHomePage-cell StaticLoggedOutHomePage-utilityBlock">
+			<div class="StaticLoggedOutHomePage-login">
+				<form action="https://twitter.com/sessions" class="LoginForm js-front-signin" method="post" data-component="login_callout" data-element="form">
+				  <div class="LoginForm-input LoginForm-username">
+				    <input type="text" class="text-input email-input js-signin-email" name="session[username_or_email]" autocomplete="off" placeholder="โทรศัพท์ อีเมล หรือชื่อผู้ใช้" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAASCAYAAABSO15qAAAAAXNSR0IArs4c6QAAAXtJREFUOBGVUj2LwkAUnIjBICIIKe8gWKRKo2BvYXMgWNlYWZ3gn1B/htekibWVcH1aIVV+wQULCxsRtMrtrGYv8RLUB8nuvjczu+9DWywWH3EcL8X3jidM07QfAfucz+ffhJdeIZNwu+iLexoFnrr5Cr/+05xSOvBoX61WYdt2BvaSgGVZ6PV6+QKGYahApVKBKJY6p2PKeduUufb7fbTbbaxWKxwOB0ynU+x2O7ium4ndk3l+KYU8AW02m8UM8Jnn81limMLlcsnDK59IMRKHiXpBQibiEZkY0co3sSxlDegoMsdx0O12Ua/XEUUR1us1jsejhFNEvaBIgK07nU4IwxDNZhOdTicDLXO205OViYrDZrORLg5Qq9VSdUpwJSEwoUjiuF+FOEzTxGAwwH6/x3a7zUD+piXjBpLukDwej2XenufJdNLQhzUYjUao1WpoNBpywIbDYZqPwi6wz6xyEATQdV2ROKmJEVMoIECszdL3ffb7n5EsnJNf8S6HAZZBgLIAAAAASUVORK5CYII=&quot;); background-repeat: no-repeat; background-attachment: scroll; background-size: 16px 18px; background-position: 98% 50%;">
+				  </div>
+				
+				  <div class="LoginForm-input LoginForm-password">
+				    <input type="password" class="text-input" name="session[password]" placeholder="รหัสผ่าน" autocomplete="off" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAASCAYAAABSO15qAAAAAXNSR0IArs4c6QAAAXtJREFUOBGVUj2LwkAUnIjBICIIKe8gWKRKo2BvYXMgWNlYWZ3gn1B/htekibWVcH1aIVV+wQULCxsRtMrtrGYv8RLUB8nuvjczu+9DWywWH3EcL8X3jidM07QfAfucz+ffhJdeIZNwu+iLexoFnrr5Cr/+05xSOvBoX61WYdt2BvaSgGVZ6PV6+QKGYahApVKBKJY6p2PKeduUufb7fbTbbaxWKxwOB0ynU+x2O7ium4ndk3l+KYU8AW02m8UM8Jnn81limMLlcsnDK59IMRKHiXpBQibiEZkY0co3sSxlDegoMsdx0O12Ua/XEUUR1us1jsejhFNEvaBIgK07nU4IwxDNZhOdTicDLXO205OViYrDZrORLg5Qq9VSdUpwJSEwoUjiuF+FOEzTxGAwwH6/x3a7zUD+piXjBpLukDwej2XenufJdNLQhzUYjUao1WpoNBpywIbDYZqPwi6wz6xyEATQdV2ROKmJEVMoIECszdL3ffb7n5EsnJNf8S6HAZZBgLIAAAAASUVORK5CYII=&quot;); background-repeat: no-repeat; background-attachment: scroll; background-size: 16px 18px; background-position: 98% 50%;">
+				                <div class="LoginForm-staticForgot">
+				              <a class="forgot" href="/account/begin_password_reset" rel="noopener">ลืมรหัสผ่าน?</a>
+				            </div>
+				
+				  </div>
+				
+				
+				  <input type="submit" class="EdgeButton EdgeButton--secondary EdgeButton--medium submit js-submit" value="เข้าสู่ระบบ">
+				
+				    <input type="hidden" name="return_to_ssl" value="true">
+				
+				  <input type="hidden" name="scribe_log">
+				  <input type="hidden" name="redirect_after_login" value="/?lang=th">
+				  <input type="hidden" value="71b9bebc39351a07eacd6cda167c396dea8f7a08" name="authenticity_token">
+				      <input type="hidden" name="ui_metrics" autocomplete="off" value="{&quot;rf&quot;:{&quot;dc3a74f91d533fafa4bb00d9bab50ea9312231babf2b1ad7e83133ce9e3cfd42&quot;:1,&quot;b5909bbeede213a3c53d9e4d1eb4324b52ff771d1771c63051a2eafc8ee99669&quot;:-4,&quot;a970389f783d6cf695251e66a7a7debbf04f089ee93577fe9531620e940b7971&quot;:-4,&quot;affbafccc4a2a04e1404e9e6550320858a4942183ea90f8a656e0a7143cd6337&quot;:13},&quot;s&quot;:&quot;2Vcpgg38LAvAIpR4tadWS7Vag-1fQqtRIqOUhdjiUa2j-_h3RRdHa_jfOrMLEn4eH1xqRSOMWH2Fn-eBbjYaqDaSP9dQ3pfmcEBzo-zyA2mcAcMUw4zsW3MPB7IwxoqD8g2KvnAE0yzcbtLiGtD8BkU-f8kOgotPm3uDkql3Xxsd8fPM1O_zW67qpUVP04NJGlkcA79e_eEvUIukULja0pPIJ1zAO7SxO07S0A29mULpeIL9J1l83b_zC8YA8x9lLpppenCOhMrbNaGdBZTTiEs4JD-EkYTeAVjEd2MM6ntzrPArLNULv4GowP8mD5RHLhKKTY1EJ48TR6DShaa0SgAAAWhKgXrr&quot;}">
+				      <script src="/i/js_inst?c_name=ui_metrics" async=""></script>
+				</form>
+			</div>
+				      <div class="StaticLoggedOutHomePage-signupBlock">
+				        <div class="StaticLoggedOutHomePage-signupHeader">
+				          <span class="Icon Icon--bird"></span>
+				          <a class="StaticLoggedOutHomePage-input StaticLoggedOutHomePage-narrowLoginButton EdgeButton EdgeButton--secondary EdgeButton--small u-floatRight" href="/login">
+				            เข้าสู่ระบบ
+				          </a>
+				        </div>
+				        <h1 class="StaticLoggedOutHomePage-signupTitle">ดูสิ่งที่เกิดขึ้นบนโลกในขณะนี้</h1>
+				          <div class="StaticLoggedOutHomePage-noSignupForm">
+				            <h2 class="StaticLoggedOutHomePage-signupSubtitle">เข้าร่วมทวิตเตอร์วันนี้</h2>
+				            <div class="StaticLoggedOutHomePage-buttons">
+				              <a class="js-nav EdgeButton EdgeButton--medium EdgeButton--primary StaticLoggedOutHomePage-buttonSignup" href="https://twitter.com/signup">
+				                สมัคร
+				              </a>
+				              <a class="js-nav EdgeButton EdgeButton--medium EdgeButton--secondary StaticLoggedOutHomePage-buttonLogin" href="/login">
+				                เข้าสู่ระบบ
+				              </a>
+				            </div>
+				          </div>
+				</div>
+					<!-- END StaticLoggedOutHomePage-login --->
+		</div>
+		<div class="PageBlock StaticLoggedOutHomePage-cell StaticLoggedOutHomePage-communicationBlock">
 			<!-- begin: page header -->
 			<svg class="twitterIcon-bird" viewBox="0 0 1208 982" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 			    <!-- Generator: Sketch 45.2 (43514) - http://www.bohemiancoding.com/sketch -->
@@ -27,7 +77,19 @@
 			        </g>
 			    </g>
 			</svg>
-			
+			<div class="StaticLoggedOutHomePage-communicationContent">
+				<div class="StaticLoggedOutHomePage-communicationItem">
+					<span class="Icon Icon--search"></span> ติดตามสิ่งที่คุณสนใจ
+				</div>
+				<div class="StaticLoggedOutHomePage-communicationItem">
+					<span class="Icon Icon--people"></span>  ฟังสิ่งที่ผู้คนกำลังพูดถึง
+				</div>
+				<div class="StaticLoggedOutHomePage-communicationItem">
+					<span class="Icon Icon--reply"></span>  เข้าร่วมบทสนทนา
+				</div>
+			</div>
+		</div>
+		
 			<!-- begin: page footer -->
 			<div class="StreamsFooter StreamsFooter--fixed">
 			  <ul class="StreamsFooter-list u-cf">
@@ -52,8 +114,8 @@
 			  </ul>
 			</div>
 			<!-- end: page footer -->
-			
-		</div>
+		
+	</div>
 		<!-- end: fluid-width bg -->
 	</body>
 	<!-- end: page -->
